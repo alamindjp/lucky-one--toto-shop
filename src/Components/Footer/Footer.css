@@ -1,0 +1,19 @@
+.Footer{
+    color: #fff;
+    background-color: #00001d;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: start;
+}
+.Footer h4, p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+.Footer h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+.Footer span{
+    font-weight: bold;
+     font-size: 18px;
+}
