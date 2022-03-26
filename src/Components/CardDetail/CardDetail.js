@@ -1,7 +1,6 @@
 import React from 'react';
 import './CardDetail.css'
 const CardDetail = (props) => {
-    console.log(props)
     const {image, name, price}=props
     return (
         <div className='cart-product'>

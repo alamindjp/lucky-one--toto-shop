@@ -8,7 +8,7 @@ const Products = () => {
     useEffect( () => {
         fetch('data.json').then(res=>res.json()).then(data=>setProducts(data))
     },[])
-    const addToCart = (product, id) =>{
+    const addToCart = (product) =>{
         if(cart.length < 4){
                 const newCart=[...cart, product];
                 setCart(newCart);
@@ -31,7 +31,9 @@ const Products = () => {
             <div className="cart-container">
                 <Cart 
                 cart={cart}
-                ></Cart>
+                >
+                </Cart>
+               
             </div>
         </div>
     );
