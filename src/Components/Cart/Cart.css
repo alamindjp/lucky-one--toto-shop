@@ -1,6 +1,32 @@
 .Cart{
+    position: sticky;
+    top: 0;
     border: 1px solid #fff;
     border-radius: 20px;
     height: 70vh;
     box-shadow: 5px 5px 15px;
+}
+.button-group{
+    display: flex;
+}
+.reset-btn{
+    color: #fff;
+    width: 50%;
+    position: absolute;
+    border: none;
+    padding: 8px 0;
+    border-radius: 5px 0 20px 0px;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(38, 37, 104, 0.795);
+}
+.select-btn{
+    color: #fff;
+    width: 50%;
+    position: absolute;
+    border: none;
+    padding: 8px 0;
+    border-radius: 0 5px 0px 20px;
+    bottom: 0px;
+    background-color: rgba(38, 37, 104, 0.795);
 }

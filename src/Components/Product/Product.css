@@ -1,0 +1,28 @@
+.Card{
+    background-color: #b37a7a48;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    box-shadow: 2px 2px 8px;
+}
+.Card img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.Card h3, h5{
+    margin: 0;
+    margin-bottom: 30px;
+}
+.btn-cart{
+    color: #fff;
+    background-color: #7c3a3385;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,10 @@
+.cart-product{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+.cart-product img{
+    width: 30px;
+    border-radius: 60%;
+}
