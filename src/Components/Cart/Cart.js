@@ -6,8 +6,7 @@ import './Cart.css'
 const Cart = ({cart}) => {
     return (
         <div id='cart-detail' className='Cart'>
-            <h2>Cart</h2>
-            <h6>Select Item: {cart.length}</h6>
+            <h2>Cart Item</h2>
             {
                 cart.map( products=><CardDetail
                     key={products.id}
